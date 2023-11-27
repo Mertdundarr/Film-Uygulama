@@ -78,50 +78,7 @@
             </div>
           </div>
           </div>
-          <!-- featured content end -->
-          <!--  filter  start -->
-          <script>
-            function redirectToLink() {
-                var selectElement = document.getElementById("filmSelect");
-                var selectedOption = selectElement.options[selectElement.selectedIndex].text;
-    
-                switch (selectedOption) {
-                  case "Ana Sayfa ":
-                        window.location.href = "index.html";
-                        break;
-                    case "Aksiyon":
-                        window.location.href = "aksiyon.html";
-                        break;
-                    case "Animasyon":
-                        window.location.href = "animasyon.html";
-                        break;
-                    case "Belgesel":
-                        window.location.href = "belgesel.html";
-                        break;
-                    case "Komedi":
-                        window.location.href = "komedi.html";
-                        break;
-                    case "Bilim Kurgu":
-                        window.location.href = "bilimkurgu.html";
-                        break;
-                    default:
-                        break;
-                }
-            }
-        </script>
-        <div class="movie-list-filter">
-        <label>Film Türü Seçiniz:</label>
-        <select id="filmSelect">
-            <option>Ana Sayfa</option>
-            <option>Aksiyon</option>
-            <option>Animasyon</option>
-            <option>Belgesel</option>
-            <option>Komedi</option>
-            <option>Bilim Kurgu</option>
-        </select>
-        <button onclick="redirectToLink()">Geçiş Yap</button>
-    </div>
-            <!--  filter  end -->
+         
             <!--  movie list start -->
             <div class="movie-list-container">
                 <h1 class="movie-list-title">Popüler</h1>
